@@ -1,0 +1,361 @@
+_type: export
+__export_format: 4
+__export_date: 2020-10-30T14:28:33.226Z
+__export_source: insomnia.desktop.app:v2020.4.1
+resources:
+  - _id: req_ef0547979fac448c8a4c1c80202e767c
+    parentId: wrk_fc7e8e0a1dca4d3e809190488271a894
+    modified: 1603993831179
+    created: 1603970131909
+    url: https://resultados.tse.jus.br/publico/comum/divulgacao/simulado/config/ele-c.json
+    name: Arquivo de configuração de eleições
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1603970959643
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_fc7e8e0a1dca4d3e809190488271a894
+    parentId: null
+    modified: 1603974143836
+    created: 1603969094620
+    name: TSE divulgação
+    description: ""
+    scope: null
+    _type: workspace
+  - _id: req_290aa18e154f48fdbeac62dbae335637
+    parentId: wrk_fc7e8e0a1dca4d3e809190488271a894
+    modified: 1603993700399
+    created: 1603970959593
+    url: https://resultados.tse.jus.br/publico/ele2020/divulgacao/simulado/8334/config/mun-e008334-cm.json
+    name: Arquivo de configuração de municípios
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1603970959593
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_de9c38903e2f463783573a751d784482
+    parentId: fld_74256f1987f14f988ca5cbb1c1782463
+    modified: 1603993673562
+    created: 1603969542385
+    url: https://resultados.tse.jus.br/publico/ele2020/divulgacao/simulado/8334/config/ms/ms-e008334-i.json
+    name: Arquivo de índice
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1603972273953.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_74256f1987f14f988ca5cbb1c1782463
+    parentId: wrk_fc7e8e0a1dca4d3e809190488271a894
+    modified: 1603974191922
+    created: 1603973588114
+    name: Mato Grosso do Sul
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1603970250976.5
+    _type: request_group
+  - _id: req_f9b289c43c914215b926cb3f61bff240
+    parentId: fld_01bd5c57145346b69305dca3ac2d6f96
+    modified: 1603994288912
+    created: 1603994228446
+    url: http://127.0.0.1:8000/ele2020/divulgacao/simulado/8334/dados/ms/ms-c0011-e008334-e.json
+    name: Prefeito
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1603994228446
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_01bd5c57145346b69305dca3ac2d6f96
+    parentId: fld_74256f1987f14f988ca5cbb1c1782463
+    modified: 1603994317710
+    created: 1603994100517
+    name: Resultado de eleitos
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1603972273928.5
+    _type: request_group
+  - _id: req_f8999475dffe40baa376f82ffc4b5e94
+    parentId: fld_01bd5c57145346b69305dca3ac2d6f96
+    modified: 1603994309505
+    created: 1603994303619
+    url: http://127.0.0.1:8000/ele2020/divulgacao/simulado/8334/dados/ms/ms-c0013-e008334-e.json
+    name: Vereadores
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1603994205182.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_6ab590bd4044454fb09a2bb21077f99a
+    parentId: fld_8e640746422d432691a2decedf70e5f8
+    modified: 1603974081455
+    created: 1603973999226
+    url: http://127.0.0.1:8000/ele2020/divulgacao/simulado/8334/dados/ms/ms90514-c0011-e008334-043-f.json
+    name: Prefeito
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1603974020820
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_8e640746422d432691a2decedf70e5f8
+    parentId: fld_45e9d48ab641400ea0ee123a1a14cc1b
+    modified: 1603973976912
+    created: 1603973976912
+    name: Dados fixos
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1603973976912
+    _type: request_group
+  - _id: fld_45e9d48ab641400ea0ee123a1a14cc1b
+    parentId: fld_74256f1987f14f988ca5cbb1c1782463
+    modified: 1603973640051
+    created: 1603973627088
+    name: Campo Grande
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1603972273903.5
+    _type: request_group
+  - _id: req_2fe83496856f424a810ddb211186f0e7
+    parentId: fld_8e640746422d432691a2decedf70e5f8
+    modified: 1603974086847
+    created: 1603974020769
+    url: http://127.0.0.1:8000/ele2020/divulgacao/simulado/8334/dados/ms/ms90514-c0013-e008334-043-f.json
+    name: Vereadores
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1603974020770
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_da84581585794fa59c4d79c410a3fdbc
+    parentId: fld_d283646075a64b33abc20e269436c08a
+    modified: 1603973814840
+    created: 1603972358745
+    url: https://resultados.tse.jus.br/publico/ele2020/divulgacao/simulado/8334/dados/ms/ms90514-c0011-e008334-v.json
+    name: Prefeito
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1603969542335
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_d283646075a64b33abc20e269436c08a
+    parentId: fld_45e9d48ab641400ea0ee123a1a14cc1b
+    modified: 1603973680286
+    created: 1603973538669
+    name: Dados variáveis
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1603969542360
+    _type: request_group
+  - _id: req_b093f0a2c2574369be3033487d565e88
+    parentId: fld_d283646075a64b33abc20e269436c08a
+    modified: 1603973821194
+    created: 1603972405814
+    url: https://resultados.tse.jus.br/publico/ele2020/divulgacao/simulado/8334/dados/ms/ms90514-c0013-e008334-v.json
+    name: Vereadores
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1603969542285
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_b30cc885c33f4697bf21e898596415e9
+    parentId: fld_a686e437acfa43e6b234541bd760863b
+    modified: 1603975101667
+    created: 1603975098940
+    url: https://resultados.tse.jus.br/publico/ele2020/divulgacao/simulado/8334/dados-simplificados/ms/ms90514-c0011-e008334-r.json
+    name: Prefeito
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1603975099142
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_a686e437acfa43e6b234541bd760863b
+    parentId: fld_45e9d48ab641400ea0ee123a1a14cc1b
+    modified: 1603975077963
+    created: 1603975057909
+    name: Resultado consolidado
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1603969542335
+    _type: request_group
+  - _id: req_908b401b94a34c08ae00b4e0f0e843dc
+    parentId: fld_a686e437acfa43e6b234541bd760863b
+    modified: 1603975119909
+    created: 1603975113726
+    url: https://resultados.tse.jus.br/publico/ele2020/divulgacao/simulado/8334/dados-simplificados/ms/ms90514-c0011-e008334-r.json
+    name: Vereadores
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1603975099092
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_9b3d4eb7ca9a41208755a8906bd6a163
+    parentId: fld_ccccd1171d3d47d3aeaebd0ae04c033d
+    modified: 1603973805044
+    created: 1603973707473
+    url: http://127.0.0.1:8000/ele2020/divulgacao/simulado/8334/dados/ms/ms90514-c0011-e008334-t.json
+    name: Prefeito
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1603973707473
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_ccccd1171d3d47d3aeaebd0ae04c033d
+    parentId: fld_45e9d48ab641400ea0ee123a1a14cc1b
+    modified: 1603973699632
+    created: 1603973693544
+    name: Resultados parciais
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1603969542310
+    _type: request_group
+  - _id: env_18ba740b661ff45dbdc63a65d68eebd71b802ff5
+    parentId: wrk_fc7e8e0a1dca4d3e809190488271a894
+    modified: 1603969094743
+    created: 1603969094743
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1603969094743
+    _type: environment
+  - _id: jar_18ba740b661ff45dbdc63a65d68eebd71b802ff5
+    parentId: wrk_fc7e8e0a1dca4d3e809190488271a894
+    modified: 1603969094783
+    created: 1603969094783
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_0bfa9f700a3746e2a8c4d49e9ae6f990
+    parentId: wrk_fc7e8e0a1dca4d3e809190488271a894
+    modified: 1603969094632
+    created: 1603969094632
+    fileName: TSE
+    contents: ""
+    contentType: yaml
+    _type: api_spec
